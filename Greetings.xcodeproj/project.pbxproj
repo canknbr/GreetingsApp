@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36B766CF29D1BF02006C3FB4 /* GreatingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B766CE29D1BF02006C3FB4 /* GreatingsApp.swift */; };
+		36B766CF29D1BF02006C3FB4 /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B766CE29D1BF02006C3FB4 /* GreetingsApp.swift */; };
 		36B766D129D1BF02006C3FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B766D029D1BF02006C3FB4 /* ContentView.swift */; };
 		36B766D329D1BF02006C3FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B766D229D1BF02006C3FB4 /* Assets.xcassets */; };
 		36B766D629D1BF02006C3FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B766D529D1BF02006C3FB4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36B766CB29D1BF02006C3FB4 /* Greatings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greatings.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36B766CE29D1BF02006C3FB4 /* GreatingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatingsApp.swift; sourceTree = "<group>"; };
+		36B766CB29D1BF02006C3FB4 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B766CE29D1BF02006C3FB4 /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		36B766D029D1BF02006C3FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36B766D229D1BF02006C3FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36B766D529D1BF02006C3FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		36B766CC29D1BF02006C3FB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36B766CB29D1BF02006C3FB4 /* Greatings.app */,
+				36B766CB29D1BF02006C3FB4 /* Greetings.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 		36B766CD29D1BF02006C3FB4 /* Greatings */ = {
 			isa = PBXGroup;
 			children = (
-				36B766CE29D1BF02006C3FB4 /* GreatingsApp.swift */,
+				36B766CE29D1BF02006C3FB4 /* GreetingsApp.swift */,
 				36B766D029D1BF02006C3FB4 /* ContentView.swift */,
 				36B766D229D1BF02006C3FB4 /* Assets.xcassets */,
 				36B766D429D1BF02006C3FB4 /* Preview Content */,
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36B766CA29D1BF02006C3FB4 /* Greatings */ = {
+		36B766CA29D1BF02006C3FB4 /* Greetings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36B766D929D1BF02006C3FB4 /* Build configuration list for PBXNativeTarget "Greatings" */;
+			buildConfigurationList = 36B766D929D1BF02006C3FB4 /* Build configuration list for PBXNativeTarget "Greetings" */;
 			buildPhases = (
 				36B766C729D1BF02006C3FB4 /* Sources */,
 				36B766C829D1BF02006C3FB4 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Greatings;
+			name = Greetings;
 			productName = Greatings;
-			productReference = 36B766CB29D1BF02006C3FB4 /* Greatings.app */;
+			productReference = 36B766CB29D1BF02006C3FB4 /* Greetings.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 36B766C629D1BF02006C3FB4 /* Build configuration list for PBXProject "Greatings" */;
+			buildConfigurationList = 36B766C629D1BF02006C3FB4 /* Build configuration list for PBXProject "Greetings" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36B766CA29D1BF02006C3FB4 /* Greatings */,
+				36B766CA29D1BF02006C3FB4 /* Greetings */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36B766D129D1BF02006C3FB4 /* ContentView.swift in Sources */,
-				36B766CF29D1BF02006C3FB4 /* GreatingsApp.swift in Sources */,
+				36B766CF29D1BF02006C3FB4 /* GreetingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36B766C629D1BF02006C3FB4 /* Build configuration list for PBXProject "Greatings" */ = {
+		36B766C629D1BF02006C3FB4 /* Build configuration list for PBXProject "Greetings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36B766D729D1BF02006C3FB4 /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36B766D929D1BF02006C3FB4 /* Build configuration list for PBXNativeTarget "Greatings" */ = {
+		36B766D929D1BF02006C3FB4 /* Build configuration list for PBXNativeTarget "Greetings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36B766DA29D1BF02006C3FB4 /* Debug */,
